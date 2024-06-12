@@ -1,0 +1,35 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-pixel-art {
+  background-image: url('/pixelfont.webp');
+  background-repeat: repeat;
+  animation: move-bg 20s linear infinite;
+}
+
+@keyframes move-bg {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+
+.header-pattern {
+  background-color: #001f3f;
+}
+
+.about-pattern {
+  background-color: #0074D9;
+}
+
+.projects-pattern {
+  background-color: #7FDBFF;
+}
+
+.three-d-visual-pattern {
+  background-color: #39CCCC;
+}
+
+.contact-pattern {
+  background-color: #3D9970;
+}
